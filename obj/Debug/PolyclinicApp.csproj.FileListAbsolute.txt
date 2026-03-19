@@ -44,3 +44,4 @@ C:\Users\kaptg\source\repos\PolyclinicApp\PolyclinicApp\obj\Debug\PolyclinicApp.
 C:\Users\kaptg\source\repos\PolyclinicApp\PolyclinicApp\obj\Debug\Polyclin.8DF3A7C5.Up2Date
 C:\Users\kaptg\source\repos\PolyclinicApp\PolyclinicApp\obj\Debug\PolyclinicApp.exe
 C:\Users\kaptg\source\repos\PolyclinicApp\PolyclinicApp\obj\Debug\PolyclinicApp.pdb
+C:\Users\kaptg\source\repos\PolyclinicApp\PolyclinicApp\obj\Debug\PolyclinicApp.RegisterForm.resources

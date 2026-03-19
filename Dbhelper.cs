@@ -7,7 +7,7 @@ namespace PolyclinicApp
     // Класс-помощник для работы с базой данных
     public static class DbHelper
     {
-        // Создать подключение
+        
         public static NpgsqlConnection GetConnection()
         {
             return new NpgsqlConnection(Program.ConnectionString);
@@ -34,7 +34,7 @@ namespace PolyclinicApp
             return table;
         }
 
-        // Выполнить INSERT / UPDATE / DELETE
+        // Выполнить INSERT,UPDATE,DELETE
         public static int ExecuteNonQuery(string sql, params NpgsqlParameter[] parameters)
         {
             using (var conn = GetConnection())
@@ -49,7 +49,7 @@ namespace PolyclinicApp
             }
         }
 
-        // Выполнить запрос и вернуть одно значение
+        // Выполнить запрос и вернуть значение
         public static object ExecuteScalar(string sql, params NpgsqlParameter[] parameters)
         {
             using (var conn = GetConnection())
