@@ -7,7 +7,7 @@ namespace PolyclinicApp
     {
         // Строка подключения к PostgreSQL 
         public static string ConnectionString =
-            "Host=localhost;Port=5432;Database=polyclinic_db;Username=postgres;Password=Eugene0905;";
+            "Host=localhost;Port=5432;Database=polyclinic_db;Username=postgres;Password=ПОМЕНЯТЬ ТУТА;";
 
         [STAThread]
         static void Main()
